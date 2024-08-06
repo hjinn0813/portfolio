@@ -1,13 +1,32 @@
 // root scss
 
+$gray: #2e2426;
+$pink: #f4a29c;
+$white: #ffffff;
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Nanum+Gothic&display=swap');
+* {
+  font-family: 'Nanum Gothic';
+  margin: 0;
+  padding: 0;
+}
+
+html,
 body {
   margin: 0;
   padding: 0;
   word-break: keep-all;
   box-sizing: border-box;
   overflow-x: hidden;
+  height: 100%;
 }
 
-$gray: #2e2426;
-$pink: #f4a29c;
-$white: #ffffff;
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
