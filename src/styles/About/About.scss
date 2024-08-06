@@ -1,3 +1,17 @@
 // about design
 
-@import './root.scss';
+@import '../root.scss';
+
+.intro-inner {
+  @include viewport-size;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.descript {
+  margin: 30px 0;
+  line-height: 1.8;
+}
