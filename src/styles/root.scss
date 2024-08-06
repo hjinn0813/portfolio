@@ -21,7 +21,7 @@ body {
   height: 100%;
 }
 
-.app {
+.wrap {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -29,4 +29,9 @@ body {
 
 .container {
   flex: 1;
+}
+
+@mixin viewport-size {
+  margin: 60px 100px;
+  height: 80vh;
 }
