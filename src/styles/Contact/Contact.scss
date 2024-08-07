@@ -4,6 +4,13 @@
 
 .contact-inner {
   @include viewport-size;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: 480px) {
+    margin: 30px 50px;
+  }
 }
 
 .contact-title {
@@ -14,16 +21,40 @@
   align-items: center;
   padding: 40px 0;
 }
+
 .contact-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+// photo design
+.contact-photo {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+
+  .phone {
+    height: 500px;
+    width: auto;
+    border-radius: 12px;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+// item 개별 디자인
+.contact-text {
   padding: 40px 0;
   line-height: 1.8;
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: left;
 }
 
-// item 개별 디자인
 .contact-item {
   margin: 40px 0;
   min-width: 250px;
