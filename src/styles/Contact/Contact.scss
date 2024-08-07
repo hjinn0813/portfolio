@@ -1,3 +1,49 @@
 // contact design
 
-@import './root.scss';
+@import '../root.scss';
+
+.contact-inner {
+  @include viewport-size;
+}
+
+.contact-title {
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+.contact-content {
+  padding: 40px 0;
+  line-height: 1.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+// item 개별 디자인
+.contact-item {
+  margin: 40px 0;
+  min-width: 250px;
+
+  @media (max-width: 480px) {
+    font-size: 16px;
+    margin: 32px 0;
+    min-width: 90%;
+  }
+}
+
+.contact-key {
+  font-size: 18px;
+  font-weight: 700;
+}
+.contact-link {
+  text-decoration: none;
+  color: $gray;
+
+  &:hover {
+    color: $pink;
+  }
+}
