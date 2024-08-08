@@ -11,7 +11,11 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="ft-content">
-        <div className="ft-txt">© 2024 Hyejin Cho. All rights reserved.</div>
+        <div className="ft-txt">
+          © 2024 Hyejin Cho.
+          <br />
+          All rights reserved.
+        </div>
         <div className="ft-icons">
           <div className="footer-btn">
             <a
