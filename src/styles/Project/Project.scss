@@ -1,3 +1,53 @@
 // project area design
 
 @import '../root.scss';
+
+.pj-container {
+  @include viewport-size;
+}
+.pj-title {
+  @include page-title;
+}
+
+// 카드 컴포넌트 디자인
+.pj-card {
+  width: 95%;
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid $gray;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pj-image {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  margin: 16px 0;
+}
+
+.pj-info {
+  line-height: 1.7;
+}
+.pj-item-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+// btn
+.pj-link {
+  margin: 8px 0;
+}
+.openlink {
+  margin: 0 8px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: $gray;
+  color: $white;
+  cursor: pointer;
+}
