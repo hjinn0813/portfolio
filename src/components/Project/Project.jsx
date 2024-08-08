@@ -38,9 +38,18 @@ export default function Project() {
           )}
           <div className="pj-info">
             <p className="pj-item-title">{project.title}</p>
-            <p className="pj-date">기간 및 인원: {project.date}</p>
-            <p className="pj-skills">사용기술: {project.skills}</p>
-            <p className="pj-response">담당파트: {toBrTag(project.response)}</p>
+            <div className="pj-date">
+              <div className="pj-info-title">기간 및 인원</div>
+              <div className="pj-info-value">{project.date}</div>
+            </div>
+            <div className="pj-skills">
+              <div className="pj-info-title">사용 기술</div>
+              <div className="pj-info-value">{project.skills}</div>
+            </div>
+            <div className="pj-response">
+              <div className="pj-info-title">담당 파트/주요 기능</div>
+              <div className="pj-info-value">{toBrTag(project.response)}</div>
+            </div>
             <div className="pj-link">
               <button className="openlink">
                 Website {project.links.website}

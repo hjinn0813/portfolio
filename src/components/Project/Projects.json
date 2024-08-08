@@ -4,8 +4,8 @@
     "title": "Frontend - '밭드림' 사이트 기획, 제작",
     "image": "team3.png",
     "date": "2024.04.26 ~ 05.16 / 6인",
-    "skills": "HTML, JavaScript, React, Redux, SASS, Bootstrap, Git, GitHub, VS Code, Eslint, Vercel, Figma, Slack, Notion, KakaoTalk",
-    "response": "날씨 위젯, 미세먼지 위젯, Not Found 페이지",
+    "skills": "HTML, JavaScript, React, Redux, SASS, Bootstrap, Git, GitHub, VS Code, ESLint, Vercel, Figma, Slack, Notion, KakaoTalk",
+    "response": "1. 날씨 위젯: geolocation API로 사용자의 현재 위치를 확인하여 날씨 정보 출력\n2. 미세먼지 위젯: '서울시 권역별 실시간 대기환경 정보'에서 강동구 정보만 추출하여, 측정결과에 따라 3종의 다른 디자인 지정\n3. Not Found 페이지: 예외처리를 위한 페이지 제작, 디자인, 라우팅 연결",
     "links": [
       {
         "Website": "https://batdream.vercel.app/",
@@ -18,8 +18,8 @@
     "title": "Frontend - '루미펫' 사이트 기획, 제작",
     "image": "team2.png",
     "date": "2024.03.13 ~ 03.28 / 5인",
-    "skills": "HTML, CSS, JavaScript, Bootstrap, Git, GitHub, VS Code, prettier, netlify, Figma, Slack, ZOOM, Notion, KakaoTalk",
-    "response": "로그인, 회원가입 페이지",
+    "skills": "HTML, CSS, JavaScript, Bootstrap, Git, GitHub, VS Code, Prettier, Netlify, Figma, Slack, ZOOM, Notion, KakaoTalk",
+    "response": "1. 로그인: 아이디&비번의 확인 및 유효성 검사, '네이버 로그인' API 사용한 로그인 기능\n2. 회원가입: 아이디&비번의 값 실시간 확인 후 메시지 출력, '가입완료' 버튼 클릭하면 모든 '필수 입력' 영역에 값이 들어왔는지 검증하고 메인 페이지로 이동, 입력한 정보들을 Local Storage에 저장하여 이용",
     "links": [
       {
         "Website": "https://lumipet.netlify.app/",
@@ -46,8 +46,8 @@
     "title": "Frontend - '시네톡' 사이트 기획, 제작",
     "image": "cinetalk.png",
     "date": "2024.07.01 ~ 08.08 / 1인",
-    "skills": "HTML, JavaScript, React, SASS, Redux, babel, MUI, SWIPER, Git, GitHub, VS Code, Eslint, prettier, Vercel, Figma",
-    "response": "시네톡 사이트 기획 및 제작",
+    "skills": "HTML, JavaScript, React, Redux, SASS, MUI, Swiper, Git, GitHub, VS Code, ESLint, Prettier, Vercel, Figma",
+    "response": "리뷰 확인/삭제, 로그인/로그아웃 검증(Redux), 영화정보 검색(영화진흥위원회 API) 등",
     "links": [
       {
         "Website": "https://cinetalk.vercel.app/",
@@ -60,7 +60,7 @@
     "title": "Frontend - 개인 포트폴리오 사이트",
     "image": "",
     "date": "2024.08.06~ / 1인",
-    "skills": "HTML, JavaScript, React, SASS, Git, GitHub, VS Code, Eslint, prettier",
+    "skills": "HTML, JavaScript, React, SASS, GSAP, Git, GitHub, VS Code, ESLint, Prettier",
     "response": "개인 포트폴리오 사이트 기획 및 제작",
     "links": [{ "website": "", "README": "" }]
   }
