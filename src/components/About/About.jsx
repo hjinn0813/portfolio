@@ -96,7 +96,7 @@ export default function About() {
       </div>
       <Link to="/skill" className="move-link">
         <div className="move-btn" ref={scrollTriggerRef}>
-          NEXT PAGE
+          Check my stacks
         </div>
       </Link>
     </div>

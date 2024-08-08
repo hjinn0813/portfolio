@@ -110,7 +110,7 @@ export default function Education() {
       </div>
       <Link to="/project" className="move-link">
         <div className="move-btn" ref={scrollTriggerRef}>
-          NEXT PAGE
+          Check Projects
         </div>
       </Link>
     </div>
