@@ -11,11 +11,33 @@
 }
 
 .intro {
-  height: 50vh;
+  height: 60vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: url('../../assets/coding.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: 12px;
+  position: relative;
+  color: $ivory;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.4); // 배경에 덮을 반투명 레이어
+    z-index: 1; // 이 레이어가 배경 사진 위에 오도록 설정
+  }
+
+  @media (max-width: 768px) {
+    height: 55vh;
+  }
 }
 
 .descript {
@@ -24,6 +46,7 @@
   flex-direction: column;
   align-items: center;
   text-align: left;
+  margin: 40px 0;
 }
 .paragraph {
   font-size: 18px;
