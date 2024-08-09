@@ -1,0 +1,18 @@
+[
+  {
+    "name": "VScode",
+    "path": "3-VSCode.svg"
+  },
+  {
+    "name": "ESLint",
+    "path": "3-ESLint.svg"
+  },
+  {
+    "name": "Netlify",
+    "path": "5-Netlify.svg"
+  },
+  {
+    "name": "Vercel",
+    "path": "5-Vercel.svg"
+  }
+]

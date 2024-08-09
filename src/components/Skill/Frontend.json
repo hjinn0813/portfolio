@@ -1,0 +1,38 @@
+[
+  {
+    "name": "HTML",
+    "path": "1-HTML.svg"
+  },
+  {
+    "name": "CSS",
+    "path": "1-CSS.svg"
+  },
+  {
+    "name": "JavaScript",
+    "path": "1-JavaScript.svg"
+  },
+  {
+    "name": "React",
+    "path": "1-React.svg"
+  },
+  {
+    "name": "Redux",
+    "path": "1-Redux.svg"
+  },
+  {
+    "name": "SASS",
+    "path": "1-SASS.svg"
+  },
+  {
+    "name": "Nodejs",
+    "path": "1-Nodejs.svg"
+  },
+  {
+    "name": "TypeScript",
+    "path": "1-typescript.svg"
+  },
+  {
+    "name": "JQuery",
+    "path": "1-JQuery.svg"
+  }
+]

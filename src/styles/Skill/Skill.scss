@@ -26,13 +26,19 @@
 // item 개별 디자인
 .sk-item {
   margin: 16px 0;
+  font-size: 18px;
 }
 .sk-item-title {
   font-weight: 700;
   border-left: 5px solid $gray;
   padding: 0 9px;
-  margin: 8px 0;
+  margin: 12px 0;
 }
 .sk-item-value {
-  margin: 8px 0;
+  margin: 12px 0;
+}
+
+// badge design
+.badge {
+  margin: 2px 4px;
 }
