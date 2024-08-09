@@ -10,31 +10,9 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Education() {
-  const contentRef = useRef(null);
   const scrollTriggerRef = useRef(null);
 
   useEffect(() => {
-    const contentEl = contentRef.current;
-
-    gsap.utils.toArray(contentEl.children).forEach((experience, index) => {
-      gsap.fromTo(
-        experience,
-        {
-          opacity: 0,
-          y: 20,
-        },
-        {
-          opacity: 1,
-          y: 0,
-          scrollTrigger: {
-            trigger: experience,
-            start: 'top 70%',
-            toggleActions: 'play none none none',
-          },
-        }
-      );
-    });
-
     gsap.fromTo(
       scrollTriggerRef.current,
       { opacity: 0, y: 50 },
@@ -43,7 +21,7 @@ export default function Education() {
         y: 0,
         scrollTrigger: {
           trigger: scrollTriggerRef.current,
-          start: 'top bottom',
+          start: 'top 100%',
           end: 'bottom top',
           scrub: 1,
         },
@@ -54,8 +32,8 @@ export default function Education() {
   return (
     <div className="edu-inner">
       <div className="edu-title">Experience</div>
-      <div className="edu-content" ref={contentRef}>
-        <div className="edu-item experience">
+      <div className="edu-content">
+        <div className="edu-item">
           <div className="edu-time">2024.07.01 ~ 2024.08.16</div>
           <div className="attribute">
             서울시 뉴딜 일자리 x 이젠아카데미 강남
@@ -80,7 +58,7 @@ export default function Education() {
             </button>
           </div>
         </div>
-        <div className="edu-item experience">
+        <div className="edu-item">
           <div className="edu-time">2023.12.27 ~ 2024.05.27</div>
           <div className="attribute">
             서울 청년취업사관학교 x 코딩온
@@ -110,7 +88,7 @@ export default function Education() {
             </button>
           </div>
         </div>
-        <div className="edu-item experience">
+        <div className="edu-item">
           <div className="edu-time">2023.11.08 ~ 2023.12.13</div>
           <div className="attribute">패스트캠퍼스 - 웹 개발 입문 (30시간)</div>
           <ul className="edu-info">
@@ -142,7 +120,7 @@ export default function Education() {
             </button>
           </div>
         </div>
-        <div className="edu-item experience">
+        <div className="edu-item">
           <div className="edu-time">2023.08.30 ~ 2023.10.04</div>
           <div className="attribute">
             패스트캠퍼스 - 포토샵 5주 완성 (30시간)
