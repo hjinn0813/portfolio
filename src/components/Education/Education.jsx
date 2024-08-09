@@ -132,11 +132,11 @@ export default function Education() {
           </ul>
         </div>
       </div>
-      <Link to="/project" className="move-link">
-        <div className="move-btn" ref={scrollTriggerRef}>
+      <div className="move-btn" ref={scrollTriggerRef}>
+        <Link to="/project" className="move-link">
           Check Projects
-        </div>
-      </Link>
+        </Link>
+      </div>
     </div>
   );
 }
