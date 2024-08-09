@@ -11,7 +11,7 @@
 }
 
 .intro {
-  height: 55vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,7 +19,6 @@
 }
 
 .descript {
-  padding: 40px 0;
   line-height: 1.8;
   display: flex;
   flex-direction: column;
@@ -38,18 +37,7 @@
   }
 }
 
-.move-link {
-  height: 30vh;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  color: $gray;
-
-  &:hover {
-    color: $pink;
-  }
-}
-
+// to next page
 .move-btn {
   cursor: pointer;
   display: flex;
@@ -61,5 +49,20 @@
 
   @media (max-width: 480px) {
     font-size: 24px;
+  }
+}
+
+.move-link {
+  height: 30vh;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: $gray;
+  line-height: 30vh;
+  transition: text-shadow 0.3s ease;
+
+  &:hover {
+    color: $pink;
+    text-shadow: 0 0 18px rgba(255, 255, 255, 0.9);
   }
 }
