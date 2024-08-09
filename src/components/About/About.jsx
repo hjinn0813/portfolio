@@ -29,8 +29,10 @@ export default function About() {
           y: 0,
           scrollTrigger: {
             trigger: paragraph,
-            start: 'top 70%',
+            start: 'top 100%',
+            end: 'bottom 0%',
             toggleActions: 'play none none none',
+            scrub: 2,
           },
         }
       );
@@ -44,7 +46,7 @@ export default function About() {
         y: 0,
         scrollTrigger: {
           trigger: scrollTriggerRef.current,
-          start: 'top bottom',
+          start: 'top 90%',
           end: 'bottom top',
           scrub: 1,
         },
@@ -84,9 +86,8 @@ export default function About() {
           덕분에 저희 팀은 항상 빠르고 효율적으로 작업을 진행했습니다.
         </p>
         <p className="paragraph">
-          저는 늘 인간의 삶에 이로운 서비스를 만드는 것에
-          <br />
-          스스로의 능력이 쓰일 수 있으면 좋겠다고 생각했습니다.
+          저는 늘 인간의 삶에 이로운 서비스를 만드는 것에 스스로의 능력이 쓰일
+          수 있으면 좋겠다고 생각했습니다.
           <br />
           다양한 경험을 통해 지속적으로 성장하며,
           <br />
@@ -94,11 +95,11 @@ export default function About() {
           싶습니다.
         </p>
       </div>
-      <Link to="/skill" className="move-link">
-        <div className="move-btn" ref={scrollTriggerRef}>
+      <div className="move-btn" ref={scrollTriggerRef}>
+        <Link to="/skill" className="move-link">
           Check my stacks
-        </div>
-      </Link>
+        </Link>
+      </div>
     </div>
   );
 }
