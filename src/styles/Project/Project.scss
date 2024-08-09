@@ -61,17 +61,5 @@
   padding: 8px 0;
 }
 .openlink {
-  margin: 0 8px;
-  padding: 12px;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
-  background-color: $gray;
-  color: $white;
-  cursor: pointer;
-
-  &:hover {
-    background-color: $pink;
-    box-shadow: 0 0 18px rgb(100, 100, 100);
-  }
+  @include link-btn;
 }
