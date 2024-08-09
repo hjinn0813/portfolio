@@ -67,6 +67,18 @@ export default function Education() {
             <li>TypeScript 심화 학습</li>
             <li>GSAP, Swiper 등 실무에서 많이 쓰이는 라이브러리 학습</li>
           </ul>
+          <div className="edu-link">
+            <button className="opensite">
+              <a
+                href="https://github.com/hjinn0813/newdeal"
+                aria-label="github"
+                alt="github"
+                className="edu-btn"
+              >
+                Check Repo
+              </a>
+            </button>
+          </div>
         </div>
         <div className="edu-item experience">
           <div className="edu-time">2023.12.27 ~ 2024.05.27</div>
@@ -85,6 +97,18 @@ export default function Education() {
             <li>React, Redux, SASS, TypeScript 입문 및 실습</li>
             <li>3번의 팀 프로젝트 진행</li>
           </ul>
+          <div className="edu-link">
+            <button className="opensite">
+              <a
+                href="https://github.com/hjinn0813/SeSAC-GD-3rd"
+                aria-label="github"
+                alt="github"
+                className="edu-btn"
+              >
+                Check Repo
+              </a>
+            </button>
+          </div>
         </div>
         <div className="edu-item experience">
           <div className="edu-time">2023.11.08 ~ 2023.12.13</div>
@@ -95,6 +119,28 @@ export default function Education() {
             <li>Netlify를 이용해 웹사이트 배포하기</li>
             <li>간단한 마크다운 문법 이해하기</li>
           </ul>
+          <div className="edu-link">
+            <button className="opensite">
+              <a
+                href="https://github.com/hjinn0813/mbti_test"
+                aria-label="github"
+                alt="github"
+                className="edu-btn"
+              >
+                실습과제
+              </a>
+            </button>
+            <button className="opensite">
+              <a
+                href="https://github.com/hjinn0813/namecard"
+                aria-label="github"
+                alt="github"
+                className="edu-btn"
+              >
+                최종과제
+              </a>
+            </button>
+          </div>
         </div>
         <div className="edu-item experience">
           <div className="edu-time">2023.08.30 ~ 2023.10.04</div>

@@ -39,4 +39,17 @@
 .edu-info {
   line-height: 1.7;
   padding-left: 20px;
+  margin: 10px 0;
+}
+
+// btn
+.edu-link {
+  padding: 8px 0;
+}
+.opensite {
+  @include link-btn;
+}
+.edu-btn {
+  text-decoration: none;
+  color: $white;
 }
