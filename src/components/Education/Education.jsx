@@ -1,34 +1,10 @@
 // 교육이수내역
 
-import React, { useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import NextBtn from '../NextBtn';
 import '../../styles/Education/Education.scss';
 
-import gsap from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(ScrollTrigger);
-
 export default function Education() {
-  const scrollTriggerRef = useRef(null);
-
-  useEffect(() => {
-    gsap.fromTo(
-      scrollTriggerRef.current,
-      { opacity: 0, y: 50 },
-      {
-        opacity: 1,
-        y: 0,
-        scrollTrigger: {
-          trigger: scrollTriggerRef.current,
-          start: 'top 100%',
-          end: 'bottom top',
-          scrub: 1,
-        },
-      }
-    );
-  }, []);
-
   return (
     <div className="edu-inner">
       <div className="edu-title">Experience</div>
@@ -132,11 +108,7 @@ export default function Education() {
           </ul>
         </div>
       </div>
-      <div className="move-btn" ref={scrollTriggerRef}>
-        <Link to="/project" className="move-link">
-          Check Projects
-        </Link>
-      </div>
+      <NextBtn to="/project" text="Check Projects 💻" />
     </div>
   );
 }

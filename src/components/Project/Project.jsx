@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Projects from './Projects.json';
+import NextBtn from '../NextBtn';
 import '../../styles/Project/Project.scss';
 
 export default function Project() {
@@ -61,6 +62,7 @@ export default function Project() {
           </div>
         </div>
       ))}
+      <NextBtn to="/contact" text="Contact Me!📧" />
     </div>
   );
 }

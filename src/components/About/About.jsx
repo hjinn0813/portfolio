@@ -1,8 +1,8 @@
 // about, intro
 
 import React, { useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
 import Typing from './Typing';
+import NextBtn from '../NextBtn';
 import '../../styles/About/About.scss';
 
 import gsap from 'gsap';
@@ -12,7 +12,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function About() {
   const descriptRef = useRef(null);
-  const scrollTriggerRef = useRef(null);
 
   useEffect(() => {
     const descriptEl = descriptRef.current;
@@ -37,21 +36,6 @@ export default function About() {
         }
       );
     });
-
-    gsap.fromTo(
-      scrollTriggerRef.current,
-      { opacity: 0, y: 50 },
-      {
-        opacity: 1,
-        y: 0,
-        scrollTrigger: {
-          trigger: scrollTriggerRef.current,
-          start: 'top 90%',
-          end: 'bottom top',
-          scrub: 1,
-        },
-      }
-    );
   }, []);
 
   return (
@@ -95,11 +79,7 @@ export default function About() {
           싶습니다.
         </p>
       </div>
-      <div className="move-btn" ref={scrollTriggerRef}>
-        <Link to="/skill" className="move-link">
-          Check my stacks
-        </Link>
-      </div>
+      <NextBtn to="/skill" text="Check my stacks" />
     </div>
   );
 }
