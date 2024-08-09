@@ -3,6 +3,7 @@
 $gray: #2e2426;
 $pink: #f4a29c;
 $white: #ffffff;
+$ivory: #fffff0;
 
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Nanum+Gothic&display=swap');
 * {
@@ -19,6 +20,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   height: 100%;
+  background-color: $ivory;
 }
 
 .wrap {
@@ -58,7 +60,7 @@ body {
   border: none;
   border-radius: 8px;
   background-color: $gray;
-  color: $white;
+  color: $ivory;
   cursor: pointer;
 
   &:hover {
