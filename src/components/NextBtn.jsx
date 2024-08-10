@@ -21,8 +21,14 @@ export default function NextBtn({ to, text }) {
       >
         {text}
         <span style={styles.arrowContainer}>
-          <span style={{ ...styles.arrow, ...styles.firstArrow }}></span>
-          <span style={{ ...styles.arrow, ...styles.secondArrow }}></span>
+          <span
+            className="moving-arrow"
+            style={{ ...styles.arrow, ...styles.firstArrow }}
+          ></span>
+          <span
+            className="moving-arrow"
+            style={{ ...styles.arrow, ...styles.secondArrow }}
+          ></span>
         </span>
       </Link>
     </div>
@@ -31,18 +37,6 @@ export default function NextBtn({ to, text }) {
 
 // arrow style
 const styles = {
-  moveBtn: {
-    padding: '10px 20px',
-    borderRadius: '5px',
-    textAlign: 'center',
-    cursor: 'pointer',
-  },
-  moveLink: {
-    display: 'flex',
-    alignItems: 'center',
-    textDecoration: 'none',
-    color: 'inherit',
-  },
   arrowContainer: {
     display: 'flex',
     marginLeft: '16px',
