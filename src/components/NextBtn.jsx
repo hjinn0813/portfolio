@@ -5,20 +5,9 @@ import { Link } from 'react-router-dom';
 import '../styles/NextBtn.scss';
 
 export default function NextBtn({ to, text }) {
-  const scrollToTop = () => {
-    if (window.scrollY > 0) {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  };
-
   return (
     <div className="move-btn" style={styles.moveBtn}>
-      <Link
-        to={to}
-        style={styles.moveLink}
-        className="move-link"
-        onClick={scrollToTop}
-      >
+      <Link to={to} style={styles.moveLink} className="move-link">
         {text}
         <span style={styles.arrowContainer}>
           <span
