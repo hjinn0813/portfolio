@@ -23,10 +23,14 @@
 }
 
 .pj-image {
-  width: 80%;
+  width: 60%;
   height: auto;
   object-fit: cover;
   margin: 16px 0;
+
+  @media (max-width: 768px) {
+    width: 80%;
+  }
 }
 
 .pj-info {
@@ -42,6 +46,10 @@
   }
 }
 
+.pj-descript {
+  padding: 16px 0;
+  font-size: 15px;
+}
 .pj-date,
 .pj-skills,
 .pj-response {
@@ -49,7 +57,7 @@
 }
 .pj-info-title {
   font-weight: 700;
-  border-left: 5px solid $gray;
+  border-left: 4px solid $gray;
   padding: 0 9px;
 }
 .pj-info-value {

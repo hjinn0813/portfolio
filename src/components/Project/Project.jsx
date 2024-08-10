@@ -39,6 +39,7 @@ export default function Project() {
           )}
           <div className="pj-info">
             <p className="pj-item-title">{project.title}</p>
+            <div className="pj-descript">{project.descript}</div>
             <div className="pj-date">
               <div className="pj-info-title">기간 및 인원</div>
               <div className="pj-info-value">{project.date}</div>
