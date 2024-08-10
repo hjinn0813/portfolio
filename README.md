@@ -6,6 +6,8 @@
 
 ## 💻 배포주소
 
+https://hjinn0813.vercel.app/
+
 https://github.com/hjinn0813/portfolio
 
 <br/>
