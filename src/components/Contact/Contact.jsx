@@ -31,6 +31,8 @@ export default function Contact() {
               alt="github"
               aria-label="to github"
               className="contact-link"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               https://github.com/hjinn0813
             </a>
@@ -42,6 +44,8 @@ export default function Contact() {
               alt="tistory"
               aria-label="to tistory"
               className="contact-link"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               https://hjinn0813.tistory.com
             </a>
@@ -53,6 +57,8 @@ export default function Contact() {
               alt="codepen"
               aria-label="to codepen"
               className="contact-link"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               https://codepen.io/hjinn0813
             </a>
