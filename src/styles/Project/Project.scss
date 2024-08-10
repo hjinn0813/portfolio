@@ -20,6 +20,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .pj-image {
@@ -67,6 +71,7 @@
 // btn
 .pj-link {
   padding: 8px 0;
+  margin: 12px 0;
 }
 .openlink {
   @include link-btn;
