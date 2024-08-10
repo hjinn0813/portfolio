@@ -8,6 +8,10 @@
     "path": "3-eslint.svg"
   },
   {
+    "name": "Prettier",
+    "path": "3-Prettier.svg"
+  },
+  {
     "name": "Netlify",
     "path": "5-Netlify.svg"
   },
