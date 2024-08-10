@@ -1,6 +1,6 @@
 // header
 
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../../styles/Header/Header.scss';
 
@@ -10,9 +10,9 @@ import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
 import CallIcon from '@mui/icons-material/Call';
 
-export default function Header() {
+const Header = forwardRef((props, ref) => {
   return (
-    <header className="header">
+    <header ref={ref} className="header">
       <div className="nav-content">
         <div className="nav-btn">
           <Link to="/about" className="nav-link">
@@ -47,4 +47,6 @@ export default function Header() {
       </div>
     </header>
   );
-}
+});
+
+export default Header;
