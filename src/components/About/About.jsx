@@ -80,7 +80,7 @@ export default function About() {
           싶습니다.
         </p>
       </div>
-      <NextBtn to="/skill" text="Check my stacks" />
+      <NextBtn to="/skill" text="Check my stacks 👀" />
     </div>
   );
 }
