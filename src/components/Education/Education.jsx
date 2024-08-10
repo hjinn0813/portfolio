@@ -20,6 +20,7 @@ export default function Education() {
             <li>HTML, CSS, JavaScript, React, SASS 등 개발언어 복습</li>
             <li>TypeScript 심화 학습</li>
             <li>GSAP, Swiper 등 실무에서 많이 쓰이는 라이브러리 학습</li>
+            <li>2개의 개인 프로젝트 진행</li>
           </ul>
           <div className="edu-link">
             <button className="opensite">
