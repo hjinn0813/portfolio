@@ -37,6 +37,28 @@
   }
 }
 
+// for swiper
+.img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-pagination {
+  bottom: 5px !important;
+}
+.swiper-pagination-bullet {
+  background-color: $gray !important;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6) !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: $pink !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: $pink !important;
+}
+
+// project info
 .pj-info {
   width: 80%;
   line-height: 1.7;

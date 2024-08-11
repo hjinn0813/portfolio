@@ -5,6 +5,13 @@ import Projects from './Projects.json';
 import NextBtn from '../NextBtn';
 import '../../styles/Project/Project.scss';
 
+// swiper slide
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 export default function Project() {
   const getImage = (imageName) => {
     try {
@@ -31,11 +38,26 @@ export default function Project() {
       {Projects.map((project) => (
         <div key={project.id} className="pj-card">
           {project.image && (
-            <img
-              src={getImage(project.image)}
-              alt={project.title}
-              className="pj-image"
-            />
+            <Swiper
+              spaceBetween={20}
+              navigation={true}
+              pagination={{ clickable: true }}
+              modules={[Navigation, Pagination]}
+              style={{ width: '100%' }}
+              className="mySwiper"
+            >
+              {project.image.map((img, index) => (
+                <SwiperSlide key={index}>
+                  <div className="img-wrap">
+                    <img
+                      src={getImage(img)}
+                      alt={`${project.title} - ${index + 1}`}
+                      className="pj-image"
+                    />
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           )}
           <div className="pj-info">
             <p className="pj-item-title">{project.title}</p>
