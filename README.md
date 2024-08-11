@@ -1,6 +1,6 @@
 # Upgrade web portfolio by React
 
-개인의 기술 스택과 작업 내역 정리를 위해 기획 및 제작한 포트폴리오 사이트입니다. 코딩 공부 초기에 순수 JS로 만들었던 웹 포트폴리오를 React로 리뉴얼 했습니다.
+개인의 기술 스택과 작업 내역 정리를 위해 기획 및 제작한 포트폴리오 사이트입니다. 코딩 공부 초기에 순수 JS로 만들었던 웹 포트폴리오를 React로 리뉴얼 했습니다.🙂
 
 <br/>
 
@@ -29,6 +29,7 @@ https://github.com/hjinn0813/portfolio
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![MUI](https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=MUI&logoColor=white)
 ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=GreenSock&logoColor=white)
+![Swiper](https://img.shields.io/badge/swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white)
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -41,9 +42,11 @@ https://github.com/hjinn0813/portfolio
 
 ## 💻 주요 기능
 
-- About 페이지 : 타이핑 애니메이션, GSAP Scroll Trigger
+- `About` 페이지 : 타이핑 애니메이션, GSAP Scroll Trigger
 
 - Header 호버 언더라인 이벤트, MUI 아이콘, 페이지 라우팅
+
+- `프로젝트` 페이지 : Image Carousel (swiper)
 
 - 모든 페이지 최하단에서 다음 페이지 이동 가능
 
