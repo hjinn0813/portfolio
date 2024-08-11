@@ -28,6 +28,8 @@ export default function Education() {
                 href="https://github.com/hjinn0813/newdeal"
                 aria-label="github"
                 alt="github"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="edu-btn"
               >
                 Check Repo
@@ -58,6 +60,8 @@ export default function Education() {
                 href="https://github.com/hjinn0813/SeSAC-GD-3rd"
                 aria-label="github"
                 alt="github"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="edu-btn"
               >
                 Check Repo
@@ -80,6 +84,8 @@ export default function Education() {
                 href="https://github.com/hjinn0813/mbti_test"
                 aria-label="github"
                 alt="github"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="edu-btn"
               >
                 실습과제
@@ -90,6 +96,8 @@ export default function Education() {
                 href="https://github.com/hjinn0813/namecard"
                 aria-label="github"
                 alt="github"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="edu-btn"
               >
                 최종과제
