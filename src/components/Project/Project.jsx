@@ -53,11 +53,17 @@ export default function Project() {
               <div className="pj-info-value">{toBrTag(project.response)}</div>
             </div>
             <div className="pj-link">
-              <button className="openlink">
-                Website {project.links.website}
+              <button
+                className="openlink"
+                onClick={() => window.open(project.links[0].website, '_blank')}
+              >
+                Website
               </button>
-              <button className="openlink">
-                README {project.links.README}
+              <button
+                className="openlink"
+                onClick={() => window.open(project.links[0].README, '_blank')}
+              >
+                README
               </button>
             </div>
           </div>

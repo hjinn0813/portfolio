@@ -9,7 +9,7 @@
     "response": "1. 날씨 위젯: geolocation API로 사용자의 현재 위치를 확인하여 날씨 정보 출력\n2. 미세먼지 위젯: '서울시 권역별 실시간 대기환경 정보'에서 강동구 정보만 추출하여, 측정결과에 따라 3종의 다른 디자인 지정\n3. Not Found 페이지: 예외처리를 위한 페이지 제작, 디자인, 라우팅 연결",
     "links": [
       {
-        "Website": "https://batdream.vercel.app/",
+        "website": "https://batdream.vercel.app/",
         "README": "https://github.com/treasure-2u/batDream"
       }
     ]
@@ -24,7 +24,7 @@
     "response": "1. 로그인: 아이디&비번의 확인 및 유효성 검사, '네이버 로그인' API 사용한 로그인 기능\n2. 회원가입: 아이디&비번의 값 실시간 확인 후 메시지 출력, '가입완료' 버튼 클릭하면 모든 '필수 입력' 영역에 값이 들어왔는지 검증하고 메인 페이지로 이동, 입력한 정보들을 Local Storage에 저장하여 이용",
     "links": [
       {
-        "Website": "https://lumipet.netlify.app/",
+        "website": "https://lumipet.netlify.app/",
         "README": "https://github.com/eun1230/sessac_B_teamproject"
       }
     ]
@@ -39,7 +39,7 @@
     "response": "팀장으로 팀원들 이끌어서 프로젝트 진행\n- 웹: 맨, 우먼, 이벤트, 결제하기, 마이 페이지, 회원정보수정\n- 모바일: 맨, 우먼, 결제하기, 마이 페이지, 회원정보수정",
     "links": [
       {
-        "Website": "https://phase-turquoise-0a5.notion.site/a2ec713d6e0548af98b2ebeb279f4ccf?v=1c247dba2fb24996b6ef39e9b463c7fd&pvs=4",
+        "website": "https://phase-turquoise-0a5.notion.site/a2ec713d6e0548af98b2ebeb279f4ccf?v=1c247dba2fb24996b6ef39e9b463c7fd&pvs=4",
         "README": "https://github.com/hjinn0813/EVERPOWER"
       }
     ]
@@ -54,7 +54,7 @@
     "response": "메인 페이지의 카드 슬라이드(Swiper), 리뷰 확인/삭제, 로그인/로그아웃 검증(Redux), 영화정보 검색(영화진흥위원회 API), 반응형 미디어쿼리 적용 등",
     "links": [
       {
-        "Website": "https://cinetalk.vercel.app/",
+        "website": "https://cinetalk.vercel.app/",
         "README": "https://github.com/hjinn0813/cinetalk"
       }
     ]
