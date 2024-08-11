@@ -49,7 +49,7 @@
     "title": "Frontend - 영화 리뷰 기록 및 공유 사이트 '시네톡'",
     "image": "cinetalk.png",
     "date": "2024.07.01 ~ 08.08 / 1인",
-    "descript": "영화를 보고 리뷰를 기록하는게 취미여서, 리뷰에 중점을 둔 사이트로 기획 및 제작했습니다. 공부하고 있던 Swiper를 다양하게 활용해볼 수 있었고, 익숙하지 않던 Redux 상태관리를 구현하며 작동원리를 확실히 이해하게 되었습니다.",
+    "descript": "영화를 보고 리뷰를 기록하는 것이 취미여서, 리뷰에 중점을 둔 사이트로 기획 및 제작했습니다. 공부하고 있던 Swiper를 다양하게 활용해볼 수 있었고, 익숙하지 않던 Redux 상태 관리를 구현하며 작동 원리를 확실히 이해하게 되었습니다.",
     "skills": "HTML, JavaScript, React, Redux, SASS, MUI, Swiper, Git, GitHub, VS Code, ESLint, Prettier, Vercel, Figma",
     "response": "메인 페이지의 카드 슬라이드(Swiper), 리뷰 확인/삭제, 로그인/로그아웃 검증(Redux), 영화정보 검색(영화진흥위원회 API), 반응형 미디어쿼리 적용 등",
     "links": [
@@ -65,10 +65,13 @@
     "image": "portfolio.png",
     "date": "2024.08.06 ~ 08.10 / 1인",
     "descript": "개인의 기술 스택과 작업 내역 정리를 위해 기획 및 제작한 포트폴리오 사이트입니다. 코딩 공부 초기에 순수 JS로 만든 사이트를 React와 SASS를 사용해 리뉴얼하며, 반복 사용되는 요소들을 컴포넌트로 관리하는 것이 작업의 효율성과 생산성 측면에서 우수하다고 다시 한번 느꼈습니다.",
-    "skills": "HTML, JavaScript, React, SASS, MUI, GSAP, Git, GitHub, VS Code, ESLint, Prettier",
+    "skills": "HTML, JavaScript, React, SASS, MUI, GSAP, Git, GitHub, VS Code, ESLint, Prettier, Vercel",
     "response": "About 페이지 타이핑 애니메이션과 GSAP Scroll Trigger, Header 호버 언더라인 이벤트, 페이지 라우팅, 반응형 미디어쿼리 적용 등",
     "links": [
-      { "website": "", "README": "https://github.com/hjinn0813/portfolio" }
+      {
+        "website": "https://hjinn0813.vercel.app",
+        "README": "https://github.com/hjinn0813/portfolio"
+      }
     ]
   }
 ]
