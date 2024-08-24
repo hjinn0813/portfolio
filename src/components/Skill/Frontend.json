@@ -28,6 +28,10 @@
     "path": "1-Nodejs.svg"
   },
   {
+    "name": "Nextjs",
+    "path": "1-nextjs.svg"
+  },
+  {
     "name": "TypeScript",
     "path": "1-typescript.svg"
   },
