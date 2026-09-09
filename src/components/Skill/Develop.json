@@ -16,6 +16,16 @@
   },
   {
     "category": "Develop",
+    "name": "npm",
+    "path": "npm.svg"
+  },
+  {
+    "category": "Develop",
+    "name": "pnpm",
+    "path": "pnpm.svg"
+  },
+  {
+    "category": "Develop",
     "name": "vite",
     "path": "1-vite.svg"
   },
