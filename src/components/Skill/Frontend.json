@@ -68,5 +68,10 @@
     "category": "Frontend",
     "name": "Styled Components",
     "path": "01-styled_components.svg"
+  },
+  {
+    "category": "Frontend",
+    "name": "shadcn/ui",
+    "path": "shadcn.svg"
   }
 ]
